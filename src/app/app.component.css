@@ -1,0 +1,29 @@
+#map {
+  height: 500px; /* O vh si quieres pantalla completa */
+  width: 100%;
+} 
+
+.map-container {
+  position: relative;
+}
+
+.distancia-badge {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000; /* Por encima del mapa */
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  font-family: sans-serif;
+}
+
+.distancia-badge button {
+  background: #ff4444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
